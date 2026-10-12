@@ -8,7 +8,7 @@
 
 | Metric | Baseline (FP32 Unoptimized) | IRIS Compiled (INT8 + Arena) | Efficiency Gain / Impact |
 | :--- | :--- | :--- | :--- |
-| **Model Classification Accuracy** | — | **94.15%** | High Diagnostic Precision |
+| **Model Classification Accuracy** | — | **90.15%** | High Diagnostic Precision |
 | **Static Weight Memory (ROM)** | 2,948 Bytes | **737 Bytes** | **75.00% Reduction** |
 | **Transient Activation RAM** | 103 Bytes | **64 Bytes** | **37.86% RAM Savings** |
 | **Total Hardware Footprint** | 3,051 Bytes | **801 Bytes** |  **73.75% Total Reduction** |
